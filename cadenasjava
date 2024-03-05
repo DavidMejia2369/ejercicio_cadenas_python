@@ -1,0 +1,30 @@
+public class main {
+        public static void main(String[] args) {
+    
+                    // Definir una cadena
+                    String saludo = "¡Hola, mundo!";
+    
+                    // Imprimir la cadena
+                    System.out.println(saludo);
+    
+                    // Obtener la longitud de la cadena
+                    int longitud = saludo.length();
+                    System.out.println("La longitud de la cadena es: " + longitud);
+    
+                    // Convertir la cadena a mayúsculas
+                    String saludoMayusculas = saludo.toUpperCase();
+                    System.out.println("En mayúsculas: " + saludoMayusculas);
+    
+                    // Reemplazar parte de la cadena
+                    String nuevoSaludo = saludo.replace("mundo", "Java");
+                    System.out.println("Nuevo saludo: " + nuevoSaludo);
+    
+                    // Dividir la cadena en palabras
+                    String[] palabras = saludo.split(" ");
+                    System.out.println("Palabras separadas:");
+                    for (String palabra : palabras) {
+                        System.out.println(palabra);
+                    }
+                }
+            }
+
